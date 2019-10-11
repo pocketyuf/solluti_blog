@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+#novelDiv {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.textClass {
+    padding: 5px;
+    font-family: 'Zilla Slab', serif!important;
+    border-radius: 5px;
+}
+
+.menuItem {
+    width: 75%;
+    margin: 0.5em auto;
+    padding: 0.5em 3em;
+    background-color: #363a70;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 18px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 14px #000000;
+}
+
+div.menuItem:hover {
+    background-color: #555bb2;
+}
+
+#dialogDiv {
+    /*font-family: "Deja Vu Sans", Helvetica, Arial, sans-serif;*/
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    position: absolute;
+    width: 790px;
+    height: 140px;
+    background-color: #3d372c;
+    color: white;
+    top: 450px;
+    left: 4px;
+    text-align: left;
+    filter: alpha(opacity=75);
+    opacity: 0.75;
+    padding: 20px;
+}

@@ -1,0 +1,55 @@
+
+
+
+.block {
+  text-align: center;
+  background: #c0c0c0;
+  border: #a0a0a0 solid 1px;
+  margin-top: 15px;
+  background-image: url("https://aptenvydotcom.files.wordpress.com/2012/07/living-room1.jpg");
+  background-size: 100%;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+ 
+.block:before {
+  content: '\200B';
+/*   content: '';
+  margin-left: -0.25em; */
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+ }
+ 
+.centered {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 15px;
+  border: rgba(0, 0, 0, 0.1) solid 1px;
+
+ }
+
+h1 {
+   color: white;
+   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+   font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+}
+
+table {
+    font-size: 125%;
+    margin-left:auto; 
+    margin-right:auto;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#t1 {
+    font-size: 105%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
